@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiden Kim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      background: #0c0c0c;
+      min-height: 100vh;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5rem 2rem;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 540px;
+    }
+
+    .name {
+      font-family: 'EB Garamond', Georgia, serif;
+      font-size: 34px;
+      font-weight: 400;
+      color: #f0f0f0;
+      letter-spacing: 0.2px;
+      margin-bottom: 8px;
+    }
+
+    .meta {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: #3d3d3d;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 3rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #181818;
+      margin-bottom: 2.5rem;
+    }
+
+    .bio {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 1.9;
+      color: #888;
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 10px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #3d3d3d;
+      margin-bottom: 1.25rem;
+    }
+
+    .exp-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 1rem 0;
+      border-top: 1px solid #161616;
+    }
+
+    .exp-item:last-of-type {
+      border-bottom: 1px solid #161616;
+    }
+
+    .exp-role {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #c8c8c8;
+      margin-bottom: 3px;
+    }
+
+    .exp-firm {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      color: #505050;
+    }
+
+    .exp-year {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 11px;
+      font-weight: 300;
+      color: #3d3d3d;
+      letter-spacing: 1px;
+      flex-shrink: 0;
+      margin-left: 1.5rem;
+    }
+
+    .footer {
+      margin-top: 2.5rem;
+    }
+
+    .footer a {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 1px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      color: #5a8ff5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <h1 class="name">Aiden Kim</h1>
+    <p class="meta">USC &nbsp;&middot;&nbsp; Finance &nbsp;&middot;&nbsp; Los Angeles</p>
+
+    <hr>
+
+    <p class="bio">
+      Born and raised in Seoul, South Korea. Moved to Atlanta, Georgia at fourteen. I study Finance at USC, graduating in 2028. Outside of work I'm on the golf course, following sports, or traveling somewhere new.
+    </p>
+
+    <p class="section-title">Experience</p>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Incoming Analyst &mdash; Infrastructure Debt</p>
+        <p class="exp-firm">Manulife Investment Management</p>
+      </div>
+      <span class="exp-year">2026</span>
+    </div>
+
+    <div class="exp-item">
+      <div>
+        <p class="exp-role">Incoming Analyst &mdash; Structured Finance</p>
+        <p class="exp-firm">SMBC</p>
+      </div>
+      <span class="exp-year">2027</span>
+    </div>
+
+    <div class="footer">
+      <a href="https://www.linkedin.com/in/aiden-kim-/" target="_blank">LinkedIn</a>
+    </div>
+
+  </div>
+</body>
+</html>
