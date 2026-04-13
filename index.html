@@ -19,89 +19,70 @@
       padding: 5rem 2rem 6rem;
     }
     .container {
-      max-width: 560px;
+      max-width: 640px;
       margin: 0 auto;
       font-family: 'Times New Roman', Times, serif;
     }
     h1 {
-      font-size: 22px;
+      font-size: 26px;
       font-weight: 400;
-      margin-bottom: 4px;
+      letter-spacing: -0.2px;
+      margin-bottom: 6px;
     }
-    .tagline {
+    .sub {
       font-size: 15px;
-      color: #555;
-      margin-bottom: 2px;
-    }
-    .location {
-      font-size: 15px;
-      color: #555;
-      margin-bottom: 2rem;
-    }
-    .latest-label {
-      font-size: 15px;
-      margin-bottom: 4px;
-    }
-    .latest-link {
-      display: block;
-      font-size: 15px;
-      color: #111;
-      text-decoration: none;
-      margin-bottom: 2rem;
-    }
-    .latest-link:hover {
-      text-decoration: underline;
-    }
-    .links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px 18px;
-      margin-bottom: 2.5rem;
-    }
-    .links a {
-      font-size: 15px;
-      color: #111;
-      text-decoration: none;
-    }
-    .links a:hover {
-      text-decoration: underline;
+      color: #888;
+      margin-bottom: 3.5rem;
     }
     .body {
-      font-size: 15px;
-      line-height: 1.85;
+      font-size: 16px;
+      line-height: 1.9;
       color: #111;
+      max-width: 560px;
     }
     .body p {
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
     }
-    .body a {
-      color: #111;
+    hr {
+      border: none;
+      border-top: 1px solid #e8e8e8;
+      margin: 3rem 0;
     }
-    .body a:hover {
-      text-decoration: underline;
+    .footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 24px;
+    }
+    .footer a {
+      font-size: 13px;
+      color: #888;
+      text-decoration: none;
+      letter-spacing: 0.3px;
+      font-family: 'Times New Roman', Times, serif;
+      transition: color 0.15s;
+    }
+    .footer a:hover {
+      color: #8b1a1a;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Aiden Kim</h1>
-    <p class="tagline">Finance student and incoming analyst</p>
-    <p class="location">Los Angeles, CA</p>
-
-    <p class="latest-label">→ Latest:</p>
-    <a class="latest-link" href="https://www.linkedin.com/in/aiden-kim-/" target="_blank">Connect on LinkedIn</a>
-
-    <nav class="links">
-      <a href="https://www.linkedin.com/in/aiden-kim-/" target="_blank">LinkedIn</a>
-      <a href="mailto:your@email.com">Email</a>
-    </nav>
+    <p class="sub">USC Finance &nbsp;&middot;&nbsp; Los Angeles, CA</p>
 
     <div class="body">
-      <p>Born and raised in Seoul, South Korea. Moved to Atlanta, Georgia at fourteen. I study Finance at USC, graduating in 2028.</p>
+      <p>I grew up in Seoul and moved to Atlanta at fourteen. My father spent his career in finance, and I grew up watching how capital moves.</p>
 
-      <p>This summer I join <a href="#">John Hancock</a> in Boston, MA as an incoming analyst in Infrastructure Debt. In 2027, I will be joining <a href="#">SMBC</a> in New York, New York as an incoming Investment Banking Analyst.</p>
+      <p>I study Finance at the University of Southern California, graduating in 2028. This summer I join John Hancock in Boston as an Summer Analyst in Infrastructure Debt. In 2027, I will be at SMBC in New York as an incoming Investment Banking Analyst.</p>
+      
+    </div>
 
-      <p>Outside of work I'm on the golf course, following sports, or traveling somewhere new.</p>
+    <hr>
+
+    <div class="footer">
+      <a href="mailto:aiden@usc.edu">aiden@usc.edu</a>
+      <a href="https://www.linkedin.com/in/aiden-kim-/" target="_blank">LinkedIn</a>
     </div>
   </div>
 </body>
